@@ -1,0 +1,60 @@
+.head{
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-color: aquamarine;
+    
+}
+.headhelp{
+      font-size: 40px;
+    border: 3px solid cyan;
+    text-align: center;
+    background-color: black;
+}
+#a li a:hover{
+    color: coral;
+    text-decoration: none;
+}
+#a li:hover:after{
+    content: "<n";
+}
+#a li:hover:before{
+    content: "n>";
+}
+#a li a:active{
+    color: aquamarine;
+}
+#listProjects{
+    list-style-type: none;
+    align-items: center;
+    text-align-last: center;
+    font-size: 30px;
+}
+#listProjects li a:hover{
+    color: fuchsia;
+}
+#a{
+    list-style-type: none;
+    align-items: center;
+    background-color: black;
+    text-align-last: center;
+}
+body{
+    background-color: whitesmoke;
+} 
+.adress{
+    color: darkgreen;
+}
+.police_head{
+    color: black;
+    background-color: black;
+}
+.headlink{
+    background-image: linear-gradient(to top right, #5be7e8,
+    #3724c7);
+    background-attachment: fixed;
+    color: aliceblue
+        
+}
+.copy{
+    text-align: center;
+}
